@@ -8,7 +8,7 @@ AtliQ Mart is currently facing a problem where a few key customers did not exten
 
 The Supply Chain team decided to use a standard approach to measure the service level in which they will measure ‘On-time delivery (OT) %’, ‘In-full delivery (IF) %’, and OnTime in full (OTIF) %’ of the customer orders daily basis against the target service level set for each customer.
 
-## Task:
+## Task
 Peter Pandey is the data analyst in the supply chain team who joined AtliQ Mart recently. He has been briefed about the the task in the stakeholder business review meeting. Now imagine yourself as Peter Pandey and play the role of the new data analyst who is excited to build this dashboard and perform the following task:
 
 - Create the metrics according to the metrics list.
@@ -17,7 +17,24 @@ Peter Pandey is the data analyst in the supply chain team who joined AtliQ Mart 
 
 - Create relevant insights not provided in the metric list/stakeholder meeting.
 
+## Data Model
+<p align="center">
+<img src="media/data-model.jpeg" height="400">
+</p>
+
 ## Dashboard
 <p align="center">
-<img src="https://github.com/ali-bin-kashif/supply-chain-fmcg-data-analytics-dashboard/assets/85495570/ce3c7d05-6466-40e1-a4ef-347ce5deaf18" height="400">
+<img src="media/dashboard-1.jpeg">
 </p>
+Live Dashboard: <a href="https://app.powerbi.com/view?r=eyJrIjoiMjM4ZjFiNDItOGMyNC00NjhlLTg4ZGQtZjQxMDFlNzNjNWU3IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=ReportSection6b7ea69cca3d2b394a4a">Click Here</a>
+
+## Key Insights: 
+- Dairy products are in majority.
+- Products are not being delivered in full ordered quantity.
+- All the perfomance metrics(OT%, IF%, OTIF%) are below the target, the mart supply chain is not performing good.
+- Line Fill Rate is 65.96%, it means many of the orders are not being delivered in full quantity.
+- Volume Fill Rate is around 96%, it means there is 4% difference in the quantity of items when they reached the customers.
+- There is no noticeable improvements in any of the key metrics in the last few months.
+- There is a big in IF% vs Target for most of the customers. Is it because of less production?
+- Lotus Mart, Coolblue and Acclaimed Stores are among the customers with highest number of orders but also most delayed delivery rate.
+
